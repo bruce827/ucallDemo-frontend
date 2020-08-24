@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>我的任务</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="910" height="391" rx="2"></rect>
+        <filter x="-0.5%" y="-1.3%" width="101.5%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.13472465 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="练习" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的任务" transform="translate(-33.000000, -161.000000)">
+            <g id="BG">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="2" transform="translate(1.000000, 137.000000)">
+                <g id="Group-51">
+                    <polygon id="Rectangle-5-Copy-4" fill="#FFFFFF" points="0 0 909 0 909 96 0 96"></polygon>
+                    <g id="Group-10-Copy" transform="translate(32.000000, 24.000000)">
+                        <rect id="Rectangle-6" fill-opacity="0.7" fill="#FF9C6E" x="0" y="0" width="48" height="48" rx="4"></rect>
+                        <text id="29" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF" fill-opacity="0.97">
+                            <tspan x="14" y="29">29</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
