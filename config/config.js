@@ -5,6 +5,8 @@ import proxy from './proxy';
 
 const { REACT_APP_ENV } = process.env;
 export default defineConfig({
+  // 多页面应用
+  history: { type: 'hash' },
   hash: true,
   antd: {},
   dva: {

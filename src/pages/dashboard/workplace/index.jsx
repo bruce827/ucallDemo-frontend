@@ -171,12 +171,17 @@ const MissionList = (listData) => {
           </Menu>
         }
       >
-        <a onClick={()=>{
-            const _origin = window.location.origin; 
-            const _w = window.open(_origin+'/callStudio')
-          }}>
-          {lastCallStateMapping[item.lastCallState]} <DownOutlined />
-        </a>
+        <Link rel="stylesheet" href="" to="/callStudio" target="_blank">
+          {/* <a onClick={()=>{
+              const _origin = window.location.origin; 
+              const _w = window.open(_origin)
+              
+              
+            }}> */}
+            {lastCallStateMapping[item.lastCallState]} <DownOutlined />
+          {/* </a> */}
+        </Link>
+        
       </Dropdown>
     );
   };

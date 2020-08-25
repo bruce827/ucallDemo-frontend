@@ -9,12 +9,12 @@ export async function query() {
   return request('/api/users');
 }
 export async function queryCurrent() {
-  // return request('/api/currentUser');
-  return data.currentUser
+  return request('/api/currentUser');
+  // return data.currentUser
 
 }
 export async function queryNotices() {
-  // return request('/api/notices');
-  return data.notices
+  return request('/api/notices');
+  // return data.notices
 
 }
